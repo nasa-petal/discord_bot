@@ -7,7 +7,6 @@ import functools
 import typing
 import asyncio
 
-
 DISCORD_TOKEN = config('DISCORD_TOKEN')
 OPEN_API_KEY = config('OPENAI_API_KEY')
 openai.api_key = OPEN_API_KEY
